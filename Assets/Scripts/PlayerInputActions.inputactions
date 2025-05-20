@@ -2,7 +2,7 @@
     "name": "PlayerInputActions",
     "maps": [
         {
-            "name": "map",
+            "name": "Player",
             "id": "57c6be95-7853-4c23-8543-fe7a89eb61d3",
             "actions": [
                 {
@@ -38,8 +38,8 @@
                 },
                 {
                     "name": "",
-                    "id": "f8503017-4c1c-4779-9f2e-7e19d441e6f3",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "05e64962-74ea-4ae2-ab07-2083ccbb1436",
+                    "path": "<Pointer>/press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
