@@ -8,7 +8,7 @@ public class PlayerInputReader : MonoBehaviour
 {
     [SerializeField] private FloatingJoystick _joystick;
     [SerializeField] private Button _dashButton;
-
+    public bool ShootHeld { get; private set; }
     public Vector2 MoveInput => new Vector2(_joystick.Horizontal, _joystick.Vertical);
     public bool DashPressed { get; private set; }
 
